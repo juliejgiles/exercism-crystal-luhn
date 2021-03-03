@@ -16,7 +16,7 @@ class Luhn
 
     def self.check_sum(num)
         
-        p @@doubled_arr.sum % 10 == 0 ? true : false
+        @@doubled_arr.sum % 10 == 0 ? true : false
     end
 
 end
